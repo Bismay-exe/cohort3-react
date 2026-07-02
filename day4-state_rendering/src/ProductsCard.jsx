@@ -3,7 +3,7 @@ import React from "react";
 const ProductsCard = ({ product, del }) => {
   return (
     <div className="p-2 border-2 h-fit flex flex-col gap-4 rounded">
-      <div className="w-40 h-50">
+      <div className="w-40 h-">
         <img src={product.image} alt="" />
       </div>
       <div>

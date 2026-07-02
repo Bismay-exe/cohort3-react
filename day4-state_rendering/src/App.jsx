@@ -275,8 +275,8 @@ const App = () => {
         count: 145,
       },
     },
-  ]);
-
+  ]);  
+               
   const deleteProduct = (id) => {
     let products = productsData.filter((elem) => elem.id !== id);
     setProductsData(products);
